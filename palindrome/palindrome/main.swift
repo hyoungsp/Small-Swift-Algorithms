@@ -19,7 +19,12 @@ func isPalindrome(word: String) -> Bool {
     return true
 }
 
+
 print(isPalindrome(word: "racecar"))
+// true
 print(isPalindrome(word: "stars"))
+// false
 print(isPalindrome(word: "kayak"))
+// true
 print(isPalindrome(word: "hello"))
+// false
